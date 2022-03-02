@@ -40,7 +40,7 @@ body{
   width: 200px;
   font-size: 18px;
   text-align: center;
-  background-color: #fff;
+transition: all 0.5s ease;
   border-radius: 8px;
   margin: 50px auto;
   padding: 14px 0;
@@ -51,6 +51,7 @@ body{
   text-transform: uppercase;
   font-weight: bold;
   color: red;
+  background-color: #fff;
 }
 
 .result-success{
@@ -58,4 +59,5 @@ body{
   font-weight: bold;
   text-transform: uppercase;
   color: green;
+  background-color: #fff;
 }
