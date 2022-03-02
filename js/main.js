@@ -1,6 +1,9 @@
 var elForm = document.querySelector(".form");
 var elFormInput = document.querySelector(".form__input");
 var elFormResult = document.querySelector(".form__result");
+var oddNumber =[11 , 33, 55,];
+var evenNumbers = [12 , 34 , 56 ,];
+
 
 elForm.addEventListener("submit", function(evt){
 
@@ -30,7 +33,3 @@ elForm.addEventListener("submit", function(evt){
   }
 
 })
-
-
-var oddNumber =[11 , 33, 55,];
-var evenNumbers = [12 , 34 , 56 ,];
